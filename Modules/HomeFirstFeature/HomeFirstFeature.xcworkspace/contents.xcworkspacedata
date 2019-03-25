@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HomeFirstFeature/HomeFirstFeature.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Dependencies">
+      <FileRef
+         location = "group:../CommonCore/CommonCore/CommonCore.xcodeproj">
+      </FileRef>
+      <Group
+         location = "container:"
+         name = "Common">
+         <FileRef
+            location = "group:../UserPreferencesService/UserPreferencesService/UserPreferencesService.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../SharedEntities/SharedEntities/SharedEntities.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../FLXFlow/FLXFlow/FLXFlow.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../Animators/Animators/Animators.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

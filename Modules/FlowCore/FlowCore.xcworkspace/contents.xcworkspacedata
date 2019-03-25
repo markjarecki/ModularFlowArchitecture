@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:FlowCore/FlowCore.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Dependencies">
+      <FileRef
+         location = "group:../CommonCore/CommonCore/CommonCore.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../FeatureCore/FeatureCore/FeatureCore.xcodeproj">
+      </FileRef>
+      <Group
+         location = "container:"
+         name = "Common">
+         <FileRef
+            location = "group:../FLXFlow/FLXFlow/FLXFlow.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../UserPreferencesService/UserPreferencesService/UserPreferencesService.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../SharedEntities/SharedEntities/SharedEntities.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../Animators/Animators/Animators.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Feature">
+         <FileRef
+            location = "group:../OnboardingSecondFeature/OnboardingSecondFeature/OnboardingSecondFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../OnboardingFirstFeature/OnboardingFirstFeature/OnboardingFirstFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../ModalFeature/ModalFeature/ModalFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../HomeSecondFeature/HomeSecondFeature/HomeSecondFeature.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../HomeFirstFeature/HomeFirstFeature/HomeFirstFeature.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "Flow">
+         <FileRef
+            location = "group:../HomeFlow/HomeFlow/HomeFlow.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../ModalFlow/ModalFlow/ModalFlow.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:../OnboardingFlow/OnboardingFlow/OnboardingFlow.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
