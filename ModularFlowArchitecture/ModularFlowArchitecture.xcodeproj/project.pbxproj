@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DAB475B32248DA8B00CC98F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB475B22248DA8B00CC98F9 /* AppDelegate.swift */; };
-		DAB475B52248DA8B00CC98F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB475B42248DA8B00CC98F9 /* ViewController.swift */; };
 		DAB475BA2248DA8F00CC98F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB475B92248DA8F00CC98F9 /* Assets.xcassets */; };
 		DAB475BD2248DA8F00CC98F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB475BB2248DA8F00CC98F9 /* LaunchScreen.storyboard */; };
 		DAB477542248E62D00CC98F9 /* FlowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477532248E62D00CC98F9 /* FlowCore.framework */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		DAB475AF2248DA8B00CC98F9 /* ModularFlowArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularFlowArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB475B22248DA8B00CC98F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAB475B42248DA8B00CC98F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB475B92248DA8F00CC98F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB475BC2248DA8F00CC98F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB475BE2248DA8F00CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				DAB475B22248DA8B00CC98F9 /* AppDelegate.swift */,
-				DAB475B42248DA8B00CC98F9 /* ViewController.swift */,
 				DAB475B92248DA8F00CC98F9 /* Assets.xcassets */,
 				DAB475BB2248DA8F00CC98F9 /* LaunchScreen.storyboard */,
 				DAB475BE2248DA8F00CC98F9 /* Info.plist */,
@@ -178,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB475B52248DA8B00CC98F9 /* ViewController.swift in Sources */,
 				DAB475B32248DA8B00CC98F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
