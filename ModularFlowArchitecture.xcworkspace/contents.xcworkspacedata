@@ -8,13 +8,13 @@
       location = "container:"
       name = "Dependencies">
       <FileRef
-         location = "group:Modules/FlowCore/FlowCore/FlowCore.xcodeproj">
+         location = "group:Modules/CommonCore/CommonCore/CommonCore.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Modules/FeatureCore/FeatureCore/FeatureCore.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Modules/CommonCore/CommonCore/CommonCore.xcodeproj">
+         location = "group:Modules/FlowCore/FlowCore/FlowCore.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Modules/AppFlow/AppFlow/AppFlow.xcodeproj">
