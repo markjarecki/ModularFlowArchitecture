@@ -11,7 +11,7 @@
 		DA2AE4862248FC37004FD237 /* DismissTapFlowInteractor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4802248FC37004FD237 /* DismissTapFlowInteractor+Extension.swift */; };
 		DA2AE4872248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4822248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift */; };
 		DA2AE4882248FC37004FD237 /* FlowActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4832248FC37004FD237 /* FlowActionDelegate.swift */; };
-		DA2AE4892248FC37004FD237 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4842248FC37004FD237 /* AppFlow.swift */; };
+		DA2AE4892248FC37004FD237 /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4842248FC37004FD237 /* AppFlowController.swift */; };
 		DAB475E82248DD4B00CC98F9 /* AppFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB475E62248DD4B00CC98F9 /* AppFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAB477672248E69200CC98F9 /* CommonCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477662248E69200CC98F9 /* CommonCore.framework */; };
 		DAB477692248E69200CC98F9 /* FeatureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477682248E69200CC98F9 /* FeatureCore.framework */; };
@@ -23,7 +23,7 @@
 		DA2AE4802248FC37004FD237 /* DismissTapFlowInteractor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DismissTapFlowInteractor+Extension.swift"; sourceTree = "<group>"; };
 		DA2AE4822248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift"; sourceTree = "<group>"; };
 		DA2AE4832248FC37004FD237 /* FlowActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowActionDelegate.swift; sourceTree = "<group>"; };
-		DA2AE4842248FC37004FD237 /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		DA2AE4842248FC37004FD237 /* AppFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
 		DAB475E32248DD4B00CC98F9 /* AppFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB475E62248DD4B00CC98F9 /* AppFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppFlow.h; sourceTree = "<group>"; };
 		DAB475E72248DD4B00CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +100,9 @@
 		DAB475E52248DD4B00CC98F9 /* AppFlow */ = {
 			isa = PBXGroup;
 			children = (
-				DA2AE4842248FC37004FD237 /* AppFlow.swift */,
-				DA2AE47C2248FC37004FD237 /* Flow interactor extensions */,
 				DA2AE4832248FC37004FD237 /* FlowActionDelegate.swift */,
+				DA2AE4842248FC37004FD237 /* AppFlowController.swift */,
+				DA2AE47C2248FC37004FD237 /* Flow interactor extensions */,
 				DAB475E62248DD4B00CC98F9 /* AppFlow.h */,
 				DAB475E72248DD4B00CC98F9 /* Info.plist */,
 			);
@@ -201,7 +201,7 @@
 			files = (
 				DA2AE4882248FC37004FD237 /* FlowActionDelegate.swift in Sources */,
 				DA2AE4872248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift in Sources */,
-				DA2AE4892248FC37004FD237 /* AppFlow.swift in Sources */,
+				DA2AE4892248FC37004FD237 /* AppFlowController.swift in Sources */,
 				DA2AE4852248FC37004FD237 /* PresentModalFeatureTapFlowInteractor+Extension.swift in Sources */,
 				DA2AE4862248FC37004FD237 /* DismissTapFlowInteractor+Extension.swift in Sources */,
 			);
