@@ -11,7 +11,6 @@ import ModalFeature
 
 public enum ModalFlowAction: FlowAction {
     
-    // Local
     case dismiss(from: ModalFeatureViewController)
     
 }

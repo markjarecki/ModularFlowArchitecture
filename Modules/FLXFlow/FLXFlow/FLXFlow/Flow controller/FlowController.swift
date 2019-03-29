@@ -62,7 +62,7 @@ open class FlowController: UIViewController, FlowActionReceivable {
     
     public func flow(action: FlowAction) {
     
-        // Process the event - if propagation not stopped, pass it to the parent
+        // Process action - if propagation not stopped, pass it to the parent flow controller
         if let propagate = flowActionDelegate?.process(action: action), propagate == true {
             
             parentFlowController?.flow(action: action)

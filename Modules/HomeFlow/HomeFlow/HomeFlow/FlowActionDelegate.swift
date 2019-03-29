@@ -14,7 +14,7 @@ extension HomeFlowController: FlowActionDelegate {
     
         switch action {
             
-            // Propagate - event not handled
+            // Propagate action handling - event not handled
             default: return true
             
         }

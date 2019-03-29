@@ -19,7 +19,7 @@ extension OnboardingFlowController: FlowActionDelegate {
             case OnboardingFlowAction.showSecond: showSecond()
             case OnboardingFlowAction.returnToFirst(let feature): returnToFirst(from: feature)
             
-            // Propagate - event not handled
+            // Propagate action - event not handled
             default: return true
             
         }
