@@ -12,10 +12,19 @@
 		DA2AE4872248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4822248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift */; };
 		DA2AE4882248FC37004FD237 /* FlowActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4832248FC37004FD237 /* FlowActionDelegate.swift */; };
 		DA2AE4892248FC37004FD237 /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4842248FC37004FD237 /* AppFlowController.swift */; };
+		DA5811F1224E2F8600AC90C0 /* Animators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811F0224E2F8600AC90C0 /* Animators.framework */; };
+		DA5811F3224E2F8600AC90C0 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811F2224E2F8600AC90C0 /* FLXFlow.framework */; };
+		DA5811F5224E2F8600AC90C0 /* HomeFirstFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811F4224E2F8600AC90C0 /* HomeFirstFeature.framework */; };
+		DA5811F7224E2F8600AC90C0 /* HomeFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811F6224E2F8600AC90C0 /* HomeFlow.framework */; };
+		DA5811F9224E2F8600AC90C0 /* HomeSecondFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811F8224E2F8600AC90C0 /* HomeSecondFeature.framework */; };
+		DA5811FB224E2F8600AC90C0 /* ModalFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811FA224E2F8600AC90C0 /* ModalFeature.framework */; };
+		DA5811FD224E2F8600AC90C0 /* ModalFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811FC224E2F8600AC90C0 /* ModalFlow.framework */; };
+		DA5811FF224E2F8600AC90C0 /* OnboardingFirstFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5811FE224E2F8600AC90C0 /* OnboardingFirstFeature.framework */; };
+		DA581201224E2F8600AC90C0 /* OnboardingFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA581200224E2F8600AC90C0 /* OnboardingFlow.framework */; };
+		DA581203224E2F8600AC90C0 /* OnboardingSecondFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA581202224E2F8600AC90C0 /* OnboardingSecondFeature.framework */; };
+		DA581205224E2F8600AC90C0 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA581204224E2F8600AC90C0 /* SharedEntities.framework */; };
+		DA581207224E2F8600AC90C0 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA581206224E2F8600AC90C0 /* UserPreferencesService.framework */; };
 		DAB475E82248DD4B00CC98F9 /* AppFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB475E62248DD4B00CC98F9 /* AppFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAB477672248E69200CC98F9 /* CommonCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477662248E69200CC98F9 /* CommonCore.framework */; };
-		DAB477692248E69200CC98F9 /* FeatureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477682248E69200CC98F9 /* FeatureCore.framework */; };
-		DAB4776B2248E69200CC98F9 /* FlowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4776A2248E69200CC98F9 /* FlowCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +33,21 @@
 		DA2AE4822248FC37004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OnboardingSecondFeatureToCompletionTapFlowInteractor+Extension.swift"; sourceTree = "<group>"; };
 		DA2AE4832248FC37004FD237 /* FlowActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowActionDelegate.swift; sourceTree = "<group>"; };
 		DA2AE4842248FC37004FD237 /* AppFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		DA5811F0224E2F8600AC90C0 /* Animators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Animators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811F2224E2F8600AC90C0 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811F4224E2F8600AC90C0 /* HomeFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811F6224E2F8600AC90C0 /* HomeFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811F8224E2F8600AC90C0 /* HomeSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811FA224E2F8600AC90C0 /* ModalFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModalFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811FC224E2F8600AC90C0 /* ModalFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModalFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5811FE224E2F8600AC90C0 /* OnboardingFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA581200224E2F8600AC90C0 /* OnboardingFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA581202224E2F8600AC90C0 /* OnboardingSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA581204224E2F8600AC90C0 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA581206224E2F8600AC90C0 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB475E32248DD4B00CC98F9 /* AppFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB475E62248DD4B00CC98F9 /* AppFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppFlow.h; sourceTree = "<group>"; };
 		DAB475E72248DD4B00CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAB477662248E69200CC98F9 /* CommonCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB477682248E69200CC98F9 /* FeatureCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FeatureCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB4776A2248E69200CC98F9 /* FlowCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlowCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +55,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB477672248E69200CC98F9 /* CommonCore.framework in Frameworks */,
-				DAB477692248E69200CC98F9 /* FeatureCore.framework in Frameworks */,
-				DAB4776B2248E69200CC98F9 /* FlowCore.framework in Frameworks */,
+				DA5811F1224E2F8600AC90C0 /* Animators.framework in Frameworks */,
+				DA5811F3224E2F8600AC90C0 /* FLXFlow.framework in Frameworks */,
+				DA5811F5224E2F8600AC90C0 /* HomeFirstFeature.framework in Frameworks */,
+				DA5811F7224E2F8600AC90C0 /* HomeFlow.framework in Frameworks */,
+				DA5811F9224E2F8600AC90C0 /* HomeSecondFeature.framework in Frameworks */,
+				DA5811FB224E2F8600AC90C0 /* ModalFeature.framework in Frameworks */,
+				DA5811FD224E2F8600AC90C0 /* ModalFlow.framework in Frameworks */,
+				DA5811FF224E2F8600AC90C0 /* OnboardingFirstFeature.framework in Frameworks */,
+				DA581201224E2F8600AC90C0 /* OnboardingFlow.framework in Frameworks */,
+				DA581203224E2F8600AC90C0 /* OnboardingSecondFeature.framework in Frameworks */,
+				DA581205224E2F8600AC90C0 /* SharedEntities.framework in Frameworks */,
+				DA581207224E2F8600AC90C0 /* UserPreferencesService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,9 +139,18 @@
 		DAB477652248E69200CC98F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB477662248E69200CC98F9 /* CommonCore.framework */,
-				DAB477682248E69200CC98F9 /* FeatureCore.framework */,
-				DAB4776A2248E69200CC98F9 /* FlowCore.framework */,
+				DA5811F0224E2F8600AC90C0 /* Animators.framework */,
+				DA5811F2224E2F8600AC90C0 /* FLXFlow.framework */,
+				DA5811F4224E2F8600AC90C0 /* HomeFirstFeature.framework */,
+				DA5811F6224E2F8600AC90C0 /* HomeFlow.framework */,
+				DA5811F8224E2F8600AC90C0 /* HomeSecondFeature.framework */,
+				DA5811FA224E2F8600AC90C0 /* ModalFeature.framework */,
+				DA5811FC224E2F8600AC90C0 /* ModalFlow.framework */,
+				DA5811FE224E2F8600AC90C0 /* OnboardingFirstFeature.framework */,
+				DA581200224E2F8600AC90C0 /* OnboardingFlow.framework */,
+				DA581202224E2F8600AC90C0 /* OnboardingSecondFeature.framework */,
+				DA581204224E2F8600AC90C0 /* SharedEntities.framework */,
+				DA581206224E2F8600AC90C0 /* UserPreferencesService.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -350,6 +386,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = Fluxom.AppFlow;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -377,6 +414,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = Fluxom.AppFlow;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

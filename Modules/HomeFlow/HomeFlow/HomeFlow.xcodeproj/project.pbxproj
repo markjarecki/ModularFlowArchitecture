@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA15E895224E34BA00EF1E34 /* Animators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E894224E34BA00EF1E34 /* Animators.framework */; };
+		DA15E897224E34BA00EF1E34 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E896224E34BA00EF1E34 /* FLXFlow.framework */; };
+		DA15E899224E34BA00EF1E34 /* HomeFirstFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E898224E34BA00EF1E34 /* HomeFirstFeature.framework */; };
+		DA15E89B224E34BA00EF1E34 /* HomeSecondFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E89A224E34BA00EF1E34 /* HomeSecondFeature.framework */; };
+		DA15E89D224E34BA00EF1E34 /* ModalFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E89C224E34BA00EF1E34 /* ModalFeature.framework */; };
+		DA15E89F224E34BA00EF1E34 /* OnboardingFirstFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E89E224E34BA00EF1E34 /* OnboardingFirstFeature.framework */; };
+		DA15E8A1224E34BA00EF1E34 /* OnboardingSecondFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A0224E34BA00EF1E34 /* OnboardingSecondFeature.framework */; };
+		DA15E8A3224E34BA00EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A2224E34BA00EF1E34 /* SharedEntities.framework */; };
+		DA15E8A5224E34BA00EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A4224E34BA00EF1E34 /* UserPreferencesService.framework */; };
 		DA2AE4CB2248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C62248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift */; };
 		DA2AE4CC2248FDE8004FD237 /* FlowActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C72248FDE8004FD237 /* FlowActionDelegate.swift */; };
 		DA2AE4CD2248FDE8004FD237 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C82248FDE8004FD237 /* HomeNavigationController.swift */; };
 		DA2AE4CE2248FDE8004FD237 /* HomeFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C92248FDE8004FD237 /* HomeFlowController.swift */; };
 		DA2AE4CF2248FDE8004FD237 /* FlowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4CA2248FDE8004FD237 /* FlowAction.swift */; };
 		DAB476512248DE7C00CC98F9 /* HomeFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB4764F2248DE7C00CC98F9 /* HomeFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAB477302248E48400CC98F9 /* CommonCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4772F2248E48400CC98F9 /* CommonCore.framework */; };
-		DAB477322248E48600CC98F9 /* FeatureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477312248E48600CC98F9 /* FeatureCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA15E894224E34BA00EF1E34 /* Animators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Animators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E896224E34BA00EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E898224E34BA00EF1E34 /* HomeFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E89A224E34BA00EF1E34 /* HomeSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E89C224E34BA00EF1E34 /* ModalFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModalFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E89E224E34BA00EF1E34 /* OnboardingFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8A0224E34BA00EF1E34 /* OnboardingSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8A2224E34BA00EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8A4224E34BA00EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2AE4C62248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentModalFeatureTapFlowInteractor.swift; sourceTree = "<group>"; };
 		DA2AE4C72248FDE8004FD237 /* FlowActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowActionDelegate.swift; sourceTree = "<group>"; };
 		DA2AE4C82248FDE8004FD237 /* HomeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
@@ -26,8 +42,6 @@
 		DAB4764C2248DE7C00CC98F9 /* HomeFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB4764F2248DE7C00CC98F9 /* HomeFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFlow.h; sourceTree = "<group>"; };
 		DAB476502248DE7C00CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAB4772F2248E48400CC98F9 /* CommonCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB477312248E48600CC98F9 /* FeatureCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FeatureCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +49,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB477322248E48600CC98F9 /* FeatureCore.framework in Frameworks */,
-				DAB477302248E48400CC98F9 /* CommonCore.framework in Frameworks */,
+				DA15E895224E34BA00EF1E34 /* Animators.framework in Frameworks */,
+				DA15E897224E34BA00EF1E34 /* FLXFlow.framework in Frameworks */,
+				DA15E899224E34BA00EF1E34 /* HomeFirstFeature.framework in Frameworks */,
+				DA15E89B224E34BA00EF1E34 /* HomeSecondFeature.framework in Frameworks */,
+				DA15E89D224E34BA00EF1E34 /* ModalFeature.framework in Frameworks */,
+				DA15E89F224E34BA00EF1E34 /* OnboardingFirstFeature.framework in Frameworks */,
+				DA15E8A1224E34BA00EF1E34 /* OnboardingSecondFeature.framework in Frameworks */,
+				DA15E8A3224E34BA00EF1E34 /* SharedEntities.framework in Frameworks */,
+				DA15E8A5224E34BA00EF1E34 /* UserPreferencesService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +106,15 @@
 		DAB4772E2248E48400CC98F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB477312248E48600CC98F9 /* FeatureCore.framework */,
-				DAB4772F2248E48400CC98F9 /* CommonCore.framework */,
+				DA15E894224E34BA00EF1E34 /* Animators.framework */,
+				DA15E896224E34BA00EF1E34 /* FLXFlow.framework */,
+				DA15E898224E34BA00EF1E34 /* HomeFirstFeature.framework */,
+				DA15E89A224E34BA00EF1E34 /* HomeSecondFeature.framework */,
+				DA15E89C224E34BA00EF1E34 /* ModalFeature.framework */,
+				DA15E89E224E34BA00EF1E34 /* OnboardingFirstFeature.framework */,
+				DA15E8A0224E34BA00EF1E34 /* OnboardingSecondFeature.framework */,
+				DA15E8A2224E34BA00EF1E34 /* SharedEntities.framework */,
+				DA15E8A4224E34BA00EF1E34 /* UserPreferencesService.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

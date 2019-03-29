@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA15E8A7224E34EA00EF1E34 /* Animators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A6224E34EA00EF1E34 /* Animators.framework */; };
+		DA15E8A9224E34EA00EF1E34 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A8224E34EA00EF1E34 /* FLXFlow.framework */; };
+		DA15E8AB224E34EA00EF1E34 /* HomeFirstFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8AA224E34EA00EF1E34 /* HomeFirstFeature.framework */; };
+		DA15E8AD224E34EA00EF1E34 /* HomeSecondFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8AC224E34EA00EF1E34 /* HomeSecondFeature.framework */; };
+		DA15E8AF224E34EA00EF1E34 /* ModalFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8AE224E34EA00EF1E34 /* ModalFeature.framework */; };
+		DA15E8B1224E34EA00EF1E34 /* OnboardingFirstFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8B0224E34EA00EF1E34 /* OnboardingFirstFeature.framework */; };
+		DA15E8B3224E34EA00EF1E34 /* OnboardingSecondFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8B2224E34EA00EF1E34 /* OnboardingSecondFeature.framework */; };
+		DA15E8B5224E34EA00EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8B4224E34EA00EF1E34 /* SharedEntities.framework */; };
+		DA15E8B7224E34EA00EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8B6224E34EA00EF1E34 /* UserPreferencesService.framework */; };
 		DA2AE4C32248FDD8004FD237 /* DismissTapFlowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C12248FDD7004FD237 /* DismissTapFlowInteractor.swift */; };
 		DA2AE4C42248FDD8004FD237 /* FlowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C22248FDD8004FD237 /* FlowAction.swift */; };
 		DAB477222248E2B200CC98F9 /* ModalFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB477202248E2B200CC98F9 /* ModalFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAB477382248E4D900CC98F9 /* CommonCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477372248E4D900CC98F9 /* CommonCore.framework */; };
-		DAB4773A2248E4D900CC98F9 /* FeatureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477392248E4D900CC98F9 /* FeatureCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA15E8A6224E34EA00EF1E34 /* Animators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Animators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8A8224E34EA00EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8AA224E34EA00EF1E34 /* HomeFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8AC224E34EA00EF1E34 /* HomeSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HomeSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8AE224E34EA00EF1E34 /* ModalFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModalFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8B0224E34EA00EF1E34 /* OnboardingFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8B2224E34EA00EF1E34 /* OnboardingSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8B4224E34EA00EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E8B6224E34EA00EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2AE4C12248FDD7004FD237 /* DismissTapFlowInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissTapFlowInteractor.swift; sourceTree = "<group>"; };
 		DA2AE4C22248FDD8004FD237 /* FlowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowAction.swift; sourceTree = "<group>"; };
 		DAB4771D2248E2B200CC98F9 /* ModalFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModalFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB477202248E2B200CC98F9 /* ModalFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalFlow.h; sourceTree = "<group>"; };
 		DAB477212248E2B200CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAB477372248E4D900CC98F9 /* CommonCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB477392248E4D900CC98F9 /* FeatureCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FeatureCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,8 +43,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB477382248E4D900CC98F9 /* CommonCore.framework in Frameworks */,
-				DAB4773A2248E4D900CC98F9 /* FeatureCore.framework in Frameworks */,
+				DA15E8A7224E34EA00EF1E34 /* Animators.framework in Frameworks */,
+				DA15E8A9224E34EA00EF1E34 /* FLXFlow.framework in Frameworks */,
+				DA15E8AB224E34EA00EF1E34 /* HomeFirstFeature.framework in Frameworks */,
+				DA15E8AD224E34EA00EF1E34 /* HomeSecondFeature.framework in Frameworks */,
+				DA15E8AF224E34EA00EF1E34 /* ModalFeature.framework in Frameworks */,
+				DA15E8B1224E34EA00EF1E34 /* OnboardingFirstFeature.framework in Frameworks */,
+				DA15E8B3224E34EA00EF1E34 /* OnboardingSecondFeature.framework in Frameworks */,
+				DA15E8B5224E34EA00EF1E34 /* SharedEntities.framework in Frameworks */,
+				DA15E8B7224E34EA00EF1E34 /* UserPreferencesService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +97,15 @@
 		DAB477362248E4D900CC98F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB477372248E4D900CC98F9 /* CommonCore.framework */,
-				DAB477392248E4D900CC98F9 /* FeatureCore.framework */,
+				DA15E8A6224E34EA00EF1E34 /* Animators.framework */,
+				DA15E8A8224E34EA00EF1E34 /* FLXFlow.framework */,
+				DA15E8AA224E34EA00EF1E34 /* HomeFirstFeature.framework */,
+				DA15E8AC224E34EA00EF1E34 /* HomeSecondFeature.framework */,
+				DA15E8AE224E34EA00EF1E34 /* ModalFeature.framework */,
+				DA15E8B0224E34EA00EF1E34 /* OnboardingFirstFeature.framework */,
+				DA15E8B2224E34EA00EF1E34 /* OnboardingSecondFeature.framework */,
+				DA15E8B4224E34EA00EF1E34 /* SharedEntities.framework */,
+				DA15E8B6224E34EA00EF1E34 /* UserPreferencesService.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

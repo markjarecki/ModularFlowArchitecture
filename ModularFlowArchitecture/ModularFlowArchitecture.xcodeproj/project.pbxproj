@@ -7,17 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA15E8EE224E3A7A00EF1E34 /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8ED224E3A7A00EF1E34 /* AppCore.framework */; };
+		DA15E8F0224E3A7E00EF1E34 /* AppCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8ED224E3A7A00EF1E34 /* AppCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DAB475B32248DA8B00CC98F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB475B22248DA8B00CC98F9 /* AppDelegate.swift */; };
 		DAB475BA2248DA8F00CC98F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB475B92248DA8F00CC98F9 /* Assets.xcassets */; };
 		DAB475BD2248DA8F00CC98F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB475BB2248DA8F00CC98F9 /* LaunchScreen.storyboard */; };
-		DAB477542248E62D00CC98F9 /* FlowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477532248E62D00CC98F9 /* FlowCore.framework */; };
-		DAB477552248E63100CC98F9 /* AppFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4774D2248E62D00CC98F9 /* AppFlow.framework */; };
-		DAB477562248E63100CC98F9 /* AppFlow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4774D2248E62D00CC98F9 /* AppFlow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAB477572248E63100CC98F9 /* CommonCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4774F2248E62D00CC98F9 /* CommonCore.framework */; };
-		DAB477582248E63100CC98F9 /* CommonCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4774F2248E62D00CC98F9 /* CommonCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAB477592248E63100CC98F9 /* FeatureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477512248E62D00CC98F9 /* FeatureCore.framework */; };
-		DAB4775A2248E63100CC98F9 /* FeatureCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477512248E62D00CC98F9 /* FeatureCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DAB4775C2248E63100CC98F9 /* FlowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAB477532248E62D00CC98F9 /* FlowCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +21,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DAB477582248E63100CC98F9 /* CommonCore.framework in Embed Frameworks */,
-				DAB4775A2248E63100CC98F9 /* FeatureCore.framework in Embed Frameworks */,
-				DAB477562248E63100CC98F9 /* AppFlow.framework in Embed Frameworks */,
-				DAB4775C2248E63100CC98F9 /* FlowCore.framework in Embed Frameworks */,
+				DA15E8F0224E3A7E00EF1E34 /* AppCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,15 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA15E8ED224E3A7A00EF1E34 /* AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB475AF2248DA8B00CC98F9 /* ModularFlowArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularFlowArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB475B22248DA8B00CC98F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB475B92248DA8F00CC98F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB475BC2248DA8F00CC98F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB475BE2248DA8F00CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAB4774D2248E62D00CC98F9 /* AppFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB4774F2248E62D00CC98F9 /* CommonCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB477512248E62D00CC98F9 /* FeatureCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FeatureCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB477532248E62D00CC98F9 /* FlowCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlowCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB477592248E63100CC98F9 /* FeatureCore.framework in Frameworks */,
-				DAB477572248E63100CC98F9 /* CommonCore.framework in Frameworks */,
-				DAB477552248E63100CC98F9 /* AppFlow.framework in Frameworks */,
-				DAB477542248E62D00CC98F9 /* FlowCore.framework in Frameworks */,
+				DA15E8EE224E3A7A00EF1E34 /* AppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +80,7 @@
 		DAB4774C2248E62D00CC98F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB4774D2248E62D00CC98F9 /* AppFlow.framework */,
-				DAB4774F2248E62D00CC98F9 /* CommonCore.framework */,
-				DAB477512248E62D00CC98F9 /* FeatureCore.framework */,
-				DAB477532248E62D00CC98F9 /* FlowCore.framework */,
+				DA15E8ED224E3A7A00EF1E34 /* AppCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -12,6 +12,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA15E851224E328600EF1E34 /* Animators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Animators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E853224E328600EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E855224E328600EF1E34 /* OnboardingSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OnboardingSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15E857224E328700EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2AE48A2248FCAE004FD237 /* UserPreferencesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferencesService.swift; sourceTree = "<group>"; };
 		DAB476DF2248E0A300CC98F9 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB476E22248E0A300CC98F9 /* UserPreferencesService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPreferencesService.h; sourceTree = "<group>"; };
@@ -29,11 +33,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA15E850224E328600EF1E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA15E851224E328600EF1E34 /* Animators.framework */,
+				DA15E853224E328600EF1E34 /* FLXFlow.framework */,
+				DA15E855224E328600EF1E34 /* OnboardingSecondFeature.framework */,
+				DA15E857224E328700EF1E34 /* SharedEntities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAB476D52248E0A300CC98F9 = {
 			isa = PBXGroup;
 			children = (
 				DAB476E12248E0A300CC98F9 /* UserPreferencesService */,
 				DAB476E02248E0A300CC98F9 /* Products */,
+				DA15E850224E328600EF1E34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
