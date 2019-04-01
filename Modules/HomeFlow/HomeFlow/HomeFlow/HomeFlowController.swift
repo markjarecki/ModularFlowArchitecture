@@ -35,9 +35,22 @@ final public class HomeFlowController: TabbedFlowController {
         let firstFeature = HomeFirstViewController()
         let secondFeature = HomeSecondViewController()
         
+        // Initialise the tbar bar items
+        let firstTabItem = UITabBarItem(title: "HomeFirst", image: nil, tag: 0)
+        let secondTabItem = UITabBarItem(title: "HomeSecond", image: nil, tag: 0)
+        
+        // Adjust the font
+        let font = UIFont.systemFont(ofSize: 14, weight: .regular)
+        firstTabItem.setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
+        secondTabItem.setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
+        
+        // Adjust the title position
+        firstTabItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -14)
+        secondTabItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -14)
+
         // Set the tab bar items
-        firstFeature.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 0)
-        secondFeature.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        firstFeature.tabBarItem = firstTabItem
+        secondFeature.tabBarItem = secondTabItem
         
         // Add flow interactors
         firstFeature.tapFlowInteractor = PresentModalFeatureTapFlowInteractor(viewController: firstFeature){ tap, viewController in
