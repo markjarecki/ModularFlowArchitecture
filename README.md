@@ -1,17 +1,14 @@
 # ModularFlowArchitecture
-Example modular, multi-flow iOS architecture.
+Example modular, multi-layered flow iOS architecture.
 
 Designed for working with a regularly changing codebase, across specialised teams, and to rapidly incorporate UX flows into your applications.
 
-Read my three-part Medium article series describing this example project. 
+Read my two-part Medium article series describing this example project. 
 
-### Part 1: Architecture design goals
+### Part 1: Design goals and achieving modularity
 https://medium.com/
 
 ### Part 2: Layered modularity
-https://medium.com/
-
-### Part 3: Controlling many flows
 https://medium.com/
 
 ## Requirements
