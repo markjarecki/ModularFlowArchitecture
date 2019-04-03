@@ -11,7 +11,7 @@
 		DA15E84B224E321F00EF1E34 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E84A224E321F00EF1E34 /* FLXFlow.framework */; };
 		DA15E84D224E321F00EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E84C224E321F00EF1E34 /* SharedEntities.framework */; };
 		DA15E84F224E321F00EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E84E224E321F00EF1E34 /* UserPreferencesService.framework */; };
-		DA2AE4AD2248FD71004FD237 /* OnboardingFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4AC2248FD71004FD237 /* OnboardingFirstViewController.swift */; };
+		DA2AE4AD2248FD71004FD237 /* OnboardingFirstFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4AC2248FD71004FD237 /* OnboardingFirstFeature.swift */; };
 		DAB476902248DFA500CC98F9 /* OnboardingFirstFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB4768E2248DFA500CC98F9 /* OnboardingFirstFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		DA15E84A224E321F00EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E84C224E321F00EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E84E224E321F00EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2AE4AC2248FD71004FD237 /* OnboardingFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingFirstViewController.swift; sourceTree = "<group>"; };
+		DA2AE4AC2248FD71004FD237 /* OnboardingFirstFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingFirstFeature.swift; sourceTree = "<group>"; };
 		DAB4768B2248DFA500CC98F9 /* OnboardingFirstFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnboardingFirstFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB4768E2248DFA500CC98F9 /* OnboardingFirstFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnboardingFirstFeature.h; sourceTree = "<group>"; };
 		DAB4768F2248DFA500CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		DAB4768D2248DFA500CC98F9 /* OnboardingFirstFeature */ = {
 			isa = PBXGroup;
 			children = (
-				DA2AE4AC2248FD71004FD237 /* OnboardingFirstViewController.swift */,
+				DA2AE4AC2248FD71004FD237 /* OnboardingFirstFeature.swift */,
 				DAB4768E2248DFA500CC98F9 /* OnboardingFirstFeature.h */,
 				DAB4768F2248DFA500CC98F9 /* Info.plist */,
 			);
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2AE4AD2248FD71004FD237 /* OnboardingFirstViewController.swift in Sources */,
+				DA2AE4AD2248FD71004FD237 /* OnboardingFirstFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

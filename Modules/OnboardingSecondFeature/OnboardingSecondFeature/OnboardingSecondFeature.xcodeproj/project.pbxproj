@@ -11,7 +11,7 @@
 		DA15E85C224E32F900EF1E34 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E85B224E32F900EF1E34 /* FLXFlow.framework */; };
 		DA15E85E224E32F900EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E85D224E32F900EF1E34 /* SharedEntities.framework */; };
 		DA15E860224E32F900EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E85F224E32F900EF1E34 /* UserPreferencesService.framework */; };
-		DA2AE4AB2248FD07004FD237 /* OnboardingSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4AA2248FD07004FD237 /* OnboardingSecondViewController.swift */; };
+		DA2AE4AB2248FD07004FD237 /* OnboardingSecondFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4AA2248FD07004FD237 /* OnboardingSecondFeature.swift */; };
 		DAB476BA2248E01200CC98F9 /* OnboardingSecondFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB476B82248E01200CC98F9 /* OnboardingSecondFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		DA15E85B224E32F900EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E85D224E32F900EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E85F224E32F900EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2AE4AA2248FD07004FD237 /* OnboardingSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSecondViewController.swift; sourceTree = "<group>"; };
+		DA2AE4AA2248FD07004FD237 /* OnboardingSecondFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSecondFeature.swift; sourceTree = "<group>"; };
 		DAB476B52248E01200CC98F9 /* OnboardingSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnboardingSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB476B82248E01200CC98F9 /* OnboardingSecondFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnboardingSecondFeature.h; sourceTree = "<group>"; };
 		DAB476B92248E01200CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		DAB476B72248E01200CC98F9 /* OnboardingSecondFeature */ = {
 			isa = PBXGroup;
 			children = (
-				DA2AE4AA2248FD07004FD237 /* OnboardingSecondViewController.swift */,
+				DA2AE4AA2248FD07004FD237 /* OnboardingSecondFeature.swift */,
 				DAB476B82248E01200CC98F9 /* OnboardingSecondFeature.h */,
 				DAB476B92248E01200CC98F9 /* Info.plist */,
 			);
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2AE4AB2248FD07004FD237 /* OnboardingSecondViewController.swift in Sources */,
+				DA2AE4AB2248FD07004FD237 /* OnboardingSecondFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

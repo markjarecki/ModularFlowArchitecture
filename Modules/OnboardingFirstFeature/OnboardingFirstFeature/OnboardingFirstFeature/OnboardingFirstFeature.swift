@@ -1,6 +1,6 @@
 //
-//  HomeSecondViewController.swift
-//  HomeSecondFeature
+//  OnboardingFirstFeature.swift
+//  OnboardingFirstFeature
 //
 //  Created by Mark Jarecki on 25/2/19.
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
@@ -9,7 +9,7 @@
 // Common
 import FLXFlow
 
-open class HomeSecondViewController: UIViewController {
+open class OnboardingFirstFeature: UIViewController {
 
     // MARK: - Flow interactors
     
@@ -33,8 +33,8 @@ open class HomeSecondViewController: UIViewController {
         view.addSubview(hintLabel)
         
         // Set label text
-        headerLabel.text = "Home Second Feature"
-        hintLabel.text = "Tap anywhere for Modal Feature"
+        headerLabel.text = "Onboarding First Feature"
+        hintLabel.text = "Tap anywhere for Onboarding Second Feature"
         
         // Constraints
         headerLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -59,7 +59,7 @@ open class HomeSecondViewController: UIViewController {
         headerLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
         headerLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40).isActive = true
         headerLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40).isActive = true
-
+        
         hintLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         hintLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         hintLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40).isActive = true

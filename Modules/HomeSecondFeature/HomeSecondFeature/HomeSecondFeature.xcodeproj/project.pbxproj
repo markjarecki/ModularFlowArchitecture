@@ -11,7 +11,7 @@
 		DA15E875224E338500EF1E34 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E874224E338500EF1E34 /* FLXFlow.framework */; };
 		DA15E877224E338500EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E876224E338500EF1E34 /* SharedEntities.framework */; };
 		DA15E879224E338500EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E878224E338500EF1E34 /* UserPreferencesService.framework */; };
-		DA2AE4B12248FDA6004FD237 /* HomeSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4B02248FDA6004FD237 /* HomeSecondViewController.swift */; };
+		DA2AE4B12248FDA6004FD237 /* HomeSecondFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4B02248FDA6004FD237 /* HomeSecondFeature.swift */; };
 		DAB476662248DEAF00CC98F9 /* HomeSecondFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB476642248DEAF00CC98F9 /* HomeSecondFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		DA15E874224E338500EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E876224E338500EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E878224E338500EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2AE4B02248FDA6004FD237 /* HomeSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSecondViewController.swift; sourceTree = "<group>"; };
+		DA2AE4B02248FDA6004FD237 /* HomeSecondFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSecondFeature.swift; sourceTree = "<group>"; };
 		DAB476612248DEAF00CC98F9 /* HomeSecondFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HomeSecondFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB476642248DEAF00CC98F9 /* HomeSecondFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeSecondFeature.h; sourceTree = "<group>"; };
 		DAB476652248DEAF00CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		DAB476632248DEAF00CC98F9 /* HomeSecondFeature */ = {
 			isa = PBXGroup;
 			children = (
-				DA2AE4B02248FDA6004FD237 /* HomeSecondViewController.swift */,
+				DA2AE4B02248FDA6004FD237 /* HomeSecondFeature.swift */,
 				DAB476642248DEAF00CC98F9 /* HomeSecondFeature.h */,
 				DAB476652248DEAF00CC98F9 /* Info.plist */,
 			);
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2AE4B12248FDA6004FD237 /* HomeSecondViewController.swift in Sources */,
+				DA2AE4B12248FDA6004FD237 /* HomeSecondFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

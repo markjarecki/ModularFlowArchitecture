@@ -17,9 +17,9 @@ public enum OnboardingFlowAction: FlowAction {
     
     // Locally handled onboarding flow actions
     case showSecond
-    case returnToFirst(from: OnboardingSecondViewController)
+    case returnToFirst(from: OnboardingSecondFeature)
     
     // App flow actions
-    case onboardingCompleted(from: OnboardingSecondViewController)
+    case onboardingCompleted(from: OnboardingSecondFeature)
     
 }

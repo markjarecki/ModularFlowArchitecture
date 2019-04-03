@@ -33,7 +33,7 @@ final public class OnboardingFlowController: StackedFlowController, FlowActionDe
         self.flowActionDelegate = self
         
         // Assign the navigation controller's root view controller
-        let firstFeature = OnboardingFirstViewController()
+        let firstFeature = OnboardingFirstFeature()
         
         // Assign all flow interactors to this view controller
         firstFeature.tapFlowInteractor = TapFlowInteractor(viewController: firstFeature){ tap, viewController in
@@ -66,11 +66,11 @@ final public class OnboardingFlowController: StackedFlowController, FlowActionDe
         
         switch action {
             
-        case OnboardingFlowAction.showSecond: showSecond()
-        case OnboardingFlowAction.returnToFirst(let feature): returnToFirst(from: feature)
+            case OnboardingFlowAction.showSecond: showSecond()
+            case OnboardingFlowAction.returnToFirst(let feature): returnToFirst(from: feature)
             
-        // Propagate action - event not handled
-        default: return true
+            // Propagate action - event not handled
+            default: return true
             
         }
         
@@ -84,14 +84,14 @@ final public class OnboardingFlowController: StackedFlowController, FlowActionDe
     private func showSecond() {
         
         // Initialise with the Home Flow Controller
-        let secondFeature = OnboardingSecondViewController()
+        let secondFeature = OnboardingSecondFeature()
         
         // Assign flow interactors
         secondFeature.tapFlowInteractor = OnboardingSecondFeatureToCompletionTapFlowInteractor(viewController: secondFeature){ tap, viewController in
             
             if tap.state == .ended {
                 
-                guard let viewController = viewController as? OnboardingSecondViewController else { return }
+                guard let viewController = viewController as? OnboardingSecondFeature else { return }
                 guard let flowController = viewController.flowController else { return }
                 
                 // Trigger a flow action on the flow controller
@@ -108,7 +108,7 @@ final public class OnboardingFlowController: StackedFlowController, FlowActionDe
         
     }
     
-    private func returnToFirst(from: OnboardingSecondViewController) {
+    private func returnToFirst(from: OnboardingSecondFeature) {
         
         // Assign as feature's edgeswipeFlowInteractor as the navigationController's transition delegate
         stackedNavigationController?.delegate = from.edgeSwipeFlowInteractor as? UINavigationControllerDelegate

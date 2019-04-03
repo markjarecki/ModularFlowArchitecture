@@ -54,7 +54,7 @@ extension AppFlowController: FlowActionDelegate {
     
     // MARK: - Private helper methods
     
-    private func onboardingCompleted(from: OnboardingSecondViewController) {
+    private func onboardingCompleted(from: OnboardingSecondFeature) {
         
         // Initialise with the Home Flow Controller
         guard let homeFlowController = HomeFlowController() else { return }
@@ -75,7 +75,7 @@ extension AppFlowController: FlowActionDelegate {
     private func presentModalFeature(from: UIViewController, content: OriginEntity) {
 
         // Initialise the Modal feature
-        let modalFeature = ModalFeatureViewController()
+        let modalFeature = ModalFeature()
         
         // Set the destination view model content
         modalFeature.viewModel = content
@@ -83,7 +83,7 @@ extension AppFlowController: FlowActionDelegate {
         // Add flow interactor
         modalFeature.tapFlowInteractor = DismissTapFlowInteractor(viewController: modalFeature){ tap, viewController in
             
-            guard let _viewController = viewController as? ModalFeatureViewController else { return }
+            guard let _viewController = viewController as? ModalFeature else { return }
             guard let flowController = _viewController.presentingFlowController else { return }
 
             // Trigger a flow action on the flow controller
@@ -94,12 +94,12 @@ extension AppFlowController: FlowActionDelegate {
         // Typecast the from feature and assign the presented feature's transitioning delegate
         switch from {
             
-            case let feature as HomeFirstViewController:
+            case let feature as HomeFirstFeature:
             
                 // Set the presented modal's transitioning delegate
                 modalFeature.transitioningDelegate = feature.tapFlowInteractor as? UIViewControllerTransitioningDelegate
             
-            case let feature as HomeSecondViewController:
+            case let feature as HomeSecondFeature:
             
                 // Set the presented modal's transitioning delegate
                 modalFeature.transitioningDelegate = feature.tapFlowInteractor as? UIViewControllerTransitioningDelegate
@@ -113,7 +113,7 @@ extension AppFlowController: FlowActionDelegate {
 
     }
     
-    private func dismissModalFeature(from: ModalFeatureViewController) {
+    private func dismissModalFeature(from: ModalFeature) {
         
         // Set a dismissal method from presented modal's flow interactor's delegate extension
         from.transitioningDelegate = from.tapFlowInteractor as? UIViewControllerTransitioningDelegate

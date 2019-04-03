@@ -1,6 +1,6 @@
 //
-//  HomeFirstViewController.swift
-//  HomeFirstFeature
+//  HomeSecondFeature.swift
+//  HomeSecondFeature
 //
 //  Created by Mark Jarecki on 25/2/19.
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
@@ -9,8 +9,8 @@
 // Common
 import FLXFlow
 
-open class HomeFirstViewController: UIViewController {
-    
+open class HomeSecondFeature: UIViewController {
+
     // MARK: - Flow interactors
     
     public var tapFlowInteractor: FlowInteractorProtocol?
@@ -31,9 +31,9 @@ open class HomeFirstViewController: UIViewController {
         // Add the views
         view.addSubview(headerLabel)
         view.addSubview(hintLabel)
-
+        
         // Set label text
-        headerLabel.text = "Home First Feature"
+        headerLabel.text = "Home Second Feature"
         hintLabel.text = "Tap anywhere for Modal Feature"
         
         // Constraints
@@ -59,12 +59,12 @@ open class HomeFirstViewController: UIViewController {
         headerLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
         headerLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40).isActive = true
         headerLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40).isActive = true
-        
+
         hintLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         hintLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         hintLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40).isActive = true
         hintLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40).isActive = true
-                
+        
     }
 
 }

@@ -15,6 +15,6 @@ import ModalFeature
 public enum ModalFlowAction: FlowAction {
     
     // App flow actions
-    case dismiss(from: ModalFeatureViewController)
+    case dismiss(from: ModalFeature)
     
 }

@@ -11,7 +11,7 @@
 		DA15E87D224E33D000EF1E34 /* FLXFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E87C224E33D000EF1E34 /* FLXFlow.framework */; };
 		DA15E87F224E33D000EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E87E224E33D000EF1E34 /* SharedEntities.framework */; };
 		DA15E881224E33D000EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E880224E33D000EF1E34 /* UserPreferencesService.framework */; };
-		DA2AE4AF2248FD96004FD237 /* ModalFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4AE2248FD96004FD237 /* ModalFeatureViewController.swift */; };
+		DA2AE4AF2248FD96004FD237 /* ModalFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4AE2248FD96004FD237 /* ModalFeature.swift */; };
 		DAB4767B2248DF1100CC98F9 /* ModalFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB476792248DF1100CC98F9 /* ModalFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 		DA15E87C224E33D000EF1E34 /* FLXFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FLXFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E87E224E33D000EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E880224E33D000EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2AE4AE2248FD96004FD237 /* ModalFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalFeatureViewController.swift; sourceTree = "<group>"; };
+		DA2AE4AE2248FD96004FD237 /* ModalFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalFeature.swift; sourceTree = "<group>"; };
 		DAB476762248DF1100CC98F9 /* ModalFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModalFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB476792248DF1100CC98F9 /* ModalFeature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalFeature.h; sourceTree = "<group>"; };
 		DAB4767A2248DF1100CC98F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		DAB476782248DF1100CC98F9 /* ModalFeature */ = {
 			isa = PBXGroup;
 			children = (
-				DA2AE4AE2248FD96004FD237 /* ModalFeatureViewController.swift */,
+				DA2AE4AE2248FD96004FD237 /* ModalFeature.swift */,
 				DAB476792248DF1100CC98F9 /* ModalFeature.h */,
 				DAB4767A2248DF1100CC98F9 /* Info.plist */,
 			);
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2AE4AF2248FD96004FD237 /* ModalFeatureViewController.swift in Sources */,
+				DA2AE4AF2248FD96004FD237 /* ModalFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

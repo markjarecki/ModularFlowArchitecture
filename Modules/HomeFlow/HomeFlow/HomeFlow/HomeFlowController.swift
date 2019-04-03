@@ -32,8 +32,8 @@ final public class HomeFlowController: TabbedFlowController, FlowActionDelegate 
         // Assign the Flow Event Delegate
         self.flowActionDelegate = self
         
-        let firstFeature = HomeFirstViewController()
-        let secondFeature = HomeSecondViewController()
+        let firstFeature = HomeFirstFeature()
+        let secondFeature = HomeSecondFeature()
         
         // Initialise the tbar bar items
         let firstTabItem = UITabBarItem(title: "HomeFirst", image: nil, tag: 0)
@@ -55,7 +55,7 @@ final public class HomeFlowController: TabbedFlowController, FlowActionDelegate 
         // Add flow interactors
         firstFeature.tapFlowInteractor = PresentModalFeatureTapFlowInteractor(viewController: firstFeature){ tap, viewController in
             
-            guard let viewController = viewController as? HomeFirstViewController else { return }
+            guard let viewController = viewController as? HomeFirstFeature else { return }
             guard let flowController = viewController.flowController else { return }
             
             let originEntity = OriginEntity(featureName: "Home First Feature")
@@ -67,7 +67,7 @@ final public class HomeFlowController: TabbedFlowController, FlowActionDelegate 
         
         secondFeature.tapFlowInteractor = PresentModalFeatureTapFlowInteractor(viewController: secondFeature){ tap, viewController in
             
-            guard let viewController = viewController as? HomeSecondViewController else { return }
+            guard let viewController = viewController as? HomeSecondFeature else { return }
             guard let flowController = viewController.flowController else { return }
 
             let originEntity = OriginEntity(featureName: "Home Second Feature")

@@ -17,8 +17,8 @@ import HomeSecondFeature
 public enum HomeFlowAction: FlowAction {
     
     // Locally handled home flow actions
-    case presentModalFeatureFromHomeFirstFeature(from: HomeFirstViewController, content: OriginEntity)
-    case presentModalFeatureFromHomeSecondFeature(from: HomeSecondViewController, content: OriginEntity)
+    case presentModalFeatureFromHomeFirstFeature(from: HomeFirstFeature, content: OriginEntity)
+    case presentModalFeatureFromHomeSecondFeature(from: HomeSecondFeature, content: OriginEntity)
 
 }
 

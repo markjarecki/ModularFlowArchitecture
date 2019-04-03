@@ -60,7 +60,7 @@ public class OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor: Inter
                 
                 // Start the interactive transition
                 // Call the flow controller FlowActionReceivable method for this interaction event
-                guard let viewController = viewController as? OnboardingSecondViewController else { return }
+                guard let viewController = viewController as? OnboardingSecondFeature else { return }
                 guard let flowController = viewController.flowController else { return }
                 
                 flowController.flow(action: OnboardingFlowAction.returnToFirst(from: viewController))
@@ -105,8 +105,8 @@ extension OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor: UINaviga
         
         // Ensure transition conditions are correct
         guard operation == .pop,
-              fromVC is OnboardingSecondViewController,
-              toVC is OnboardingFirstViewController else { return nil }
+              fromVC is OnboardingSecondFeature,
+              toVC is OnboardingFirstFeature else { return nil }
         
         // Return a basic interactive cross fade animator
         return InteractiveCrossFadeAnimator(driver: self)

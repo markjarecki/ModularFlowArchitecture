@@ -1,6 +1,6 @@
 //
-//  OnboardingFirstViewController.swift
-//  OnboardingFirstFeature
+//  HomeFirstFeature.swift
+//  HomeFirstFeature
 //
 //  Created by Mark Jarecki on 25/2/19.
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
@@ -9,8 +9,8 @@
 // Common
 import FLXFlow
 
-open class OnboardingFirstViewController: UIViewController {
-
+open class HomeFirstFeature: UIViewController {
+    
     // MARK: - Flow interactors
     
     public var tapFlowInteractor: FlowInteractorProtocol?
@@ -31,10 +31,10 @@ open class OnboardingFirstViewController: UIViewController {
         // Add the views
         view.addSubview(headerLabel)
         view.addSubview(hintLabel)
-        
+
         // Set label text
-        headerLabel.text = "Onboarding First Feature"
-        hintLabel.text = "Tap anywhere for Onboarding Second Feature"
+        headerLabel.text = "Home First Feature"
+        hintLabel.text = "Tap anywhere for Modal Feature"
         
         // Constraints
         headerLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -64,7 +64,7 @@ open class OnboardingFirstViewController: UIViewController {
         hintLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         hintLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40).isActive = true
         hintLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40).isActive = true
-        
+                
     }
 
 }
