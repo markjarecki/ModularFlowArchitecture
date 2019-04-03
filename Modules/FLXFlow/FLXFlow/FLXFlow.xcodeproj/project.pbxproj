@@ -102,9 +102,9 @@
 		DA2AE4972248FCE1004FD237 /* Flow interactor */ = {
 			isa = PBXGroup;
 			children = (
-				DA2AE4982248FCE1004FD237 /* InteractionDrivenFlowInteractor.swift */,
-				DA2AE4992248FCE1004FD237 /* TapFlowInteractor.swift */,
 				DA2AE49A2248FCE1004FD237 /* FlowInteractor.swift */,
+				DA2AE4992248FCE1004FD237 /* TapFlowInteractor.swift */,
+				DA2AE4982248FCE1004FD237 /* InteractionDrivenFlowInteractor.swift */,
 			);
 			path = "Flow interactor";
 			sourceTree = "<group>";
