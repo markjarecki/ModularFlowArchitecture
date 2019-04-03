@@ -19,7 +19,6 @@
 		DA2AE4BB2248FDC9004FD237 /* FlowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4B42248FDC8004FD237 /* FlowAction.swift */; };
 		DA2AE4BC2248FDC9004FD237 /* OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4B62248FDC8004FD237 /* OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor.swift */; };
 		DA2AE4BD2248FDC9004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4B72248FDC8004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor.swift */; };
-		DA2AE4BF2248FDC9004FD237 /* FlowActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4B92248FDC8004FD237 /* FlowActionDelegate.swift */; };
 		DA2AE4C02248FDC9004FD237 /* OnboardingFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4BA2248FDC8004FD237 /* OnboardingFlowController.swift */; };
 		DAB476A52248DFD800CC98F9 /* OnboardingFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB476A32248DFD800CC98F9 /* OnboardingFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		DA2AE4B42248FDC8004FD237 /* FlowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowAction.swift; sourceTree = "<group>"; };
 		DA2AE4B62248FDC8004FD237 /* OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor.swift; sourceTree = "<group>"; };
 		DA2AE4B72248FDC8004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSecondFeatureToCompletionTapFlowInteractor.swift; sourceTree = "<group>"; };
-		DA2AE4B92248FDC8004FD237 /* FlowActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowActionDelegate.swift; sourceTree = "<group>"; };
 		DA2AE4BA2248FDC8004FD237 /* OnboardingFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingFlowController.swift; sourceTree = "<group>"; };
 		DAB476A02248DFD800CC98F9 /* OnboardingFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnboardingFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB476A32248DFD800CC98F9 /* OnboardingFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnboardingFlow.h; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				DA2AE4B42248FDC8004FD237 /* FlowAction.swift */,
-				DA2AE4B92248FDC8004FD237 /* FlowActionDelegate.swift */,
 				DA2AE4BA2248FDC8004FD237 /* OnboardingFlowController.swift */,
 				DA2AE4B52248FDC8004FD237 /* Flow interactors */,
 				DAB476A32248DFD800CC98F9 /* OnboardingFlow.h */,
@@ -199,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2AE4BF2248FDC9004FD237 /* FlowActionDelegate.swift in Sources */,
 				DA2AE4C02248FDC9004FD237 /* OnboardingFlowController.swift in Sources */,
 				DA2AE4BD2248FDC9004FD237 /* OnboardingSecondFeatureToCompletionTapFlowInteractor.swift in Sources */,
 				DA2AE4BC2248FDC9004FD237 /* OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor.swift in Sources */,
