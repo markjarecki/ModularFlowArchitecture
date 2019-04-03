@@ -6,10 +6,13 @@
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
 //
 
+// Common
 import Animators
 import FLXFlow
 
 final public class HomeNavigationController: UITabBarController {}
+
+// MARK: - UITabBarControllerDelegate conformance
 
 extension HomeNavigationController: UITabBarControllerDelegate {
 

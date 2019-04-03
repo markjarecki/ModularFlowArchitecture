@@ -6,8 +6,11 @@
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
 //
 
+// Common
 import Animators
 import FLXFlow
+
+// Features
 import OnboardingFirstFeature
 import OnboardingSecondFeature
 

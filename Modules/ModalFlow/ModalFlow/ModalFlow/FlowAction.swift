@@ -6,7 +6,10 @@
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
 //
 
+// Common
 import FLXFlow
+
+// Features
 import ModalFeature
 
 public enum ModalFlowAction: FlowAction {

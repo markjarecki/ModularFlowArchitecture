@@ -6,18 +6,18 @@
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
 //
 
-// CommmonCore
+// Commmon
 import FLXFlow
 import SharedEntities
 import UserPreferencesService
 
-// FeatureCore
+// Features
 import OnboardingSecondFeature
 import HomeFirstFeature
 import HomeSecondFeature
 import ModalFeature
 
-// FlowCore
+// Flows
 import OnboardingFlow
 import HomeFlow
 import ModalFlow

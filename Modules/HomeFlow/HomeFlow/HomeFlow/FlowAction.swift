@@ -6,11 +6,11 @@
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
 //
 
-// CommonCore
+// Common
 import FLXFlow
 import SharedEntities
 
-// FeatureCore
+// Features
 import HomeFirstFeature
 import HomeSecondFeature
 

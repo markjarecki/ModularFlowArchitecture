@@ -6,11 +6,11 @@
 //  Copyright © 2019 Mark Jarecki. All rights reserved.
 //
 
-// CommonCore
+// Common
 import FLXFlow
 import UserPreferencesService
 
-// FlowCore
+// Flows
 import OnboardingFlow
 import HomeFlow
 
