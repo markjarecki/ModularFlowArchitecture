@@ -112,9 +112,9 @@
 		DA2AE49B2248FCE2004FD237 /* Flow controller */ = {
 			isa = PBXGroup;
 			children = (
+				DA2AE49E2248FCE2004FD237 /* FlowController.swift */,
 				DA2AE49C2248FCE2004FD237 /* StackedFlowController.swift */,
 				DA2AE49D2248FCE2004FD237 /* TabbedFlowController.swift */,
-				DA2AE49E2248FCE2004FD237 /* FlowController.swift */,
 			);
 			path = "Flow controller";
 			sourceTree = "<group>";
