@@ -24,6 +24,8 @@ import ModalFlow
 
 extension AppFlowController: FlowActionDelegate {
     
+    // MARK: - FlowActionDelegate conformance
+    
     public func process(action: FlowAction) -> Bool {
         
         switch action {

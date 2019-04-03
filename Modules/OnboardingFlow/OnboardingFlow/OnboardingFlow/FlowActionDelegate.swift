@@ -12,6 +12,8 @@ import OnboardingSecondFeature
 
 extension OnboardingFlowController: FlowActionDelegate {
     
+    // MARK: - FlowActionDelegate conformance
+    
     public func process(action: FlowAction) -> Bool {
         
         switch action {

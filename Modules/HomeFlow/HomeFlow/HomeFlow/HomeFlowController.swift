@@ -14,7 +14,7 @@ import SharedEntities
 import HomeFirstFeature
 import HomeSecondFeature
 
-final public class HomeFlowController: TabbedFlowController {
+final public class HomeFlowController: TabbedFlowController, FlowActionDelegate {
     
     // MARK: - Initialisers
     

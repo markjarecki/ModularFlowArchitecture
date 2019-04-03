@@ -12,11 +12,11 @@ import OnboardingSecondFeature
 
 public enum OnboardingFlowAction: FlowAction {
     
-    // Local
+    // Locally handled onboarding flow actions
     case showSecond
     case returnToFirst(from: OnboardingSecondViewController)
     
-    // App
+    // App flow actions
     case onboardingCompleted(from: OnboardingSecondViewController)
     
 }

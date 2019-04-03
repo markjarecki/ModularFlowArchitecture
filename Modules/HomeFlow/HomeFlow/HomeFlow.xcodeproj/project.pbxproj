@@ -17,7 +17,6 @@
 		DA15E8A3224E34BA00EF1E34 /* SharedEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A2224E34BA00EF1E34 /* SharedEntities.framework */; };
 		DA15E8A5224E34BA00EF1E34 /* UserPreferencesService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15E8A4224E34BA00EF1E34 /* UserPreferencesService.framework */; };
 		DA2AE4CB2248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C62248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift */; };
-		DA2AE4CC2248FDE8004FD237 /* FlowActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C72248FDE8004FD237 /* FlowActionDelegate.swift */; };
 		DA2AE4CD2248FDE8004FD237 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C82248FDE8004FD237 /* HomeNavigationController.swift */; };
 		DA2AE4CE2248FDE8004FD237 /* HomeFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4C92248FDE8004FD237 /* HomeFlowController.swift */; };
 		DA2AE4CF2248FDE8004FD237 /* FlowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AE4CA2248FDE8004FD237 /* FlowAction.swift */; };
@@ -35,7 +34,6 @@
 		DA15E8A2224E34BA00EF1E34 /* SharedEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SharedEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E8A4224E34BA00EF1E34 /* UserPreferencesService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UserPreferencesService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2AE4C62248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentModalFeatureTapFlowInteractor.swift; sourceTree = "<group>"; };
-		DA2AE4C72248FDE8004FD237 /* FlowActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowActionDelegate.swift; sourceTree = "<group>"; };
 		DA2AE4C82248FDE8004FD237 /* HomeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
 		DA2AE4C92248FDE8004FD237 /* HomeFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFlowController.swift; sourceTree = "<group>"; };
 		DA2AE4CA2248FDE8004FD237 /* FlowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowAction.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				DA2AE4CA2248FDE8004FD237 /* FlowAction.swift */,
-				DA2AE4C72248FDE8004FD237 /* FlowActionDelegate.swift */,
 				DA2AE4C92248FDE8004FD237 /* HomeFlowController.swift */,
 				DA2AE4C82248FDE8004FD237 /* HomeNavigationController.swift */,
 				DA2AE4C52248FDE8004FD237 /* Flow interactors */,
@@ -200,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2AE4CE2248FDE8004FD237 /* HomeFlowController.swift in Sources */,
-				DA2AE4CC2248FDE8004FD237 /* FlowActionDelegate.swift in Sources */,
 				DA2AE4CD2248FDE8004FD237 /* HomeNavigationController.swift in Sources */,
 				DA2AE4CB2248FDE8004FD237 /* PresentModalFeatureTapFlowInteractor.swift in Sources */,
 				DA2AE4CF2248FDE8004FD237 /* FlowAction.swift in Sources */,
