@@ -19,7 +19,7 @@ public enum OnboardingFlowAction: FlowAction {
     case showSecond
     case returnToFirst(from: OnboardingSecondFeature)
     
-    // App flow actions
+    // App flow handled actions
     case onboardingCompleted(from: OnboardingSecondFeature)
     
 }

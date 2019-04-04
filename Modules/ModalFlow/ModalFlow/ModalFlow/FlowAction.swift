@@ -14,7 +14,7 @@ import ModalFeature
 
 public enum ModalFlowAction: FlowAction {
     
-    // App flow actions
+    // App flow handled actions
     case dismiss(from: ModalFeature)
     
 }
