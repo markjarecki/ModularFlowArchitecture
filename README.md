@@ -1,15 +1,12 @@
 # ModularFlowArchitecture
-Example modular, multi-layered flow iOS architecture.
+This repository contains an example modular, multi-layered flow iOS architecture.
 
-Designed for working with a regularly changing codebase, across specialised teams, and to rapidly incorporate UX flows into your applications.
+Designed for working with a regularly changing codebase, across specialised teams, and to rapidly incorporate your user flows into your applications.
 
-Read my two-part Medium article series describing this example project. 
+Read my Medium article  describing this example project. 
 
-### Part 1: Design goals and achieving modularity
-https://medium.com/
-
-### Part 2: Layered modularity
-https://medium.com/
+### Building a dynamic modular iOS architecture
+https://medium.com/fluxom/building-a-dynamic-modular-ios-architecture-1b87dc31278b
 
 ## Requirements
 
@@ -22,6 +19,7 @@ XCode 10.2
 3. Open ModularFlowArchitecture.xcworkspace in Xcode
 4. Build it and run
 
-## Caveat
+## Caveats
 
-Code is provided as-is
+- Code is provided as-is
+- FLXFlow processing is not thread-safe, so call `process(action:)` on the main thread
