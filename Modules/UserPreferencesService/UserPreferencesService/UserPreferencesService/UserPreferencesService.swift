@@ -8,16 +8,6 @@
 
 import Foundation
 
-internal struct internalSwiftStruct3{}
-
-public struct publicSwiftStruct3 {
-    
-    public var w: Int?
-    
-    public init() {}
-    
-}
-
 enum UserPreferences: String {
 
     case onBoarded = "onBoarded"
