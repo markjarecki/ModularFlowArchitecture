@@ -36,7 +36,7 @@ open class TapFlowInteractor: FlowInteractor {
         
         // Set up gesture recognizer
         tapGesture.addTarget(self, action: #selector(handler(tap:)))
-        viewController?.view.addGestureRecognizer(tapGesture)
+        view.addGestureRecognizer(tapGesture)
         
     }
     

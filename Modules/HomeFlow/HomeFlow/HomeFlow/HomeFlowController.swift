@@ -37,7 +37,7 @@ final public class HomeFlowController: TabbedFlowController, FlowActionDelegate 
         
         // Initialise the tbar bar items
         let firstTabItem = UITabBarItem(title: "HomeFirst", image: nil, tag: 0)
-        let secondTabItem = UITabBarItem(title: "HomeSecond", image: nil, tag: 0)
+        let secondTabItem = UITabBarItem(title: "HomeSecond", image: nil, tag: 1)
         
         // Adjust the font
         let font = UIFont.systemFont(ofSize: 14, weight: .regular)
