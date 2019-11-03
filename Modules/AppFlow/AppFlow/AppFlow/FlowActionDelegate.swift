@@ -108,8 +108,12 @@ extension AppFlowController: FlowActionDelegate {
             
         }
         
-        // Set the presentation style
-        modalFeature.modalPresentationStyle = .fullScreen
+        // Override the default presentation style
+        if #available(iOS 13, *) {
+            
+            modalFeature.modalPresentationStyle = .fullScreen
+
+        }
         
         // Present the modal feature
         from.present(modalFeature, animated: true)
