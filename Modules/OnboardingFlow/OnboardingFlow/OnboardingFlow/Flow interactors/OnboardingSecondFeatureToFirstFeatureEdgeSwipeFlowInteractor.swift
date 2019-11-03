@@ -33,7 +33,7 @@ public class OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor: Inter
     // MARK: - Private helper methods
     
     private func prepareGestureRecogniser(in view: UIView) {
-        
+
         // Set up gesture recognizer
         leftEdgeSwipeGesture.addTarget(self, action: #selector(handler(pan:)))
         leftEdgeSwipeGesture.edges = .left
@@ -43,8 +43,8 @@ public class OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor: Inter
     
     // MARK: - Gesture handler
     
-    @objc private func handler(pan: UIScreenEdgePanGestureRecognizer) {
-        
+    @objc public func handler(pan: UIScreenEdgePanGestureRecognizer) {
+                
         guard let panView = pan.view else { return }
                 
         let translation = pan.translation(in: panView)
@@ -102,7 +102,7 @@ extension OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor: UINaviga
         
     @objc(navigationController:animationControllerForOperation:fromViewController:toViewController:)
     public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
+                
         // Ensure transition conditions are correct
         guard operation == .pop,
               fromVC is OnboardingSecondFeature,

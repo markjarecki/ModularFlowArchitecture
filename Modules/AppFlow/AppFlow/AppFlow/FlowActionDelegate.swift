@@ -73,7 +73,7 @@ extension AppFlowController: FlowActionDelegate {
     }
     
     private func presentModalFeature(from: UIViewController, content: OriginEntity) {
-
+        
         // Initialise the Modal feature
         let modalFeature = ModalFeature()
         
@@ -108,9 +108,16 @@ extension AppFlowController: FlowActionDelegate {
             
         }
         
+        // Override the default presentation style
+        if #available(iOS 13, *) {
+            
+            modalFeature.modalPresentationStyle = .fullScreen
+
+        }
+        
         // Present the modal feature
         from.present(modalFeature, animated: true)
-
+        
     }
     
     private func dismissModalFeature(from: ModalFeature) {
