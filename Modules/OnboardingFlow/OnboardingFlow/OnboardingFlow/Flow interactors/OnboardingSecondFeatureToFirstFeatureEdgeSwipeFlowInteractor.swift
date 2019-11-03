@@ -34,16 +34,24 @@ public class OnboardingSecondFeatureToFirstFeatureEdgeSwipeFlowInteractor: Inter
     
     private func prepareGestureRecogniser(in view: UIView) {
         
+        print("PREPARING")
+        
         // Set up gesture recognizer
         leftEdgeSwipeGesture.addTarget(self, action: #selector(handler(pan:)))
         leftEdgeSwipeGesture.edges = .left
         viewController?.view.addGestureRecognizer(leftEdgeSwipeGesture)
+        
+        print(view)
+         print(viewController)
+         print("FINISHED PREP")
         
     }
     
     // MARK: - Gesture handler
     
     @objc private func handler(pan: UIScreenEdgePanGestureRecognizer) {
+        
+        print("DUDE")
         
         guard let panView = pan.view else { return }
                 
